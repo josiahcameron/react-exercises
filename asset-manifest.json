@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/https//:josiahcameron.github.io/react-exercises/static/css/main.073c9b0a.css",
-    "main.js": "/https//:josiahcameron.github.io/react-exercises/static/js/main.bb15cfff.js",
+    "main.js": "/https//:josiahcameron.github.io/react-exercises/static/js/main.fe006250.js",
     "static/js/787.66e229e8.chunk.js": "/https//:josiahcameron.github.io/react-exercises/static/js/787.66e229e8.chunk.js",
     "static/media/logo.svg": "/https//:josiahcameron.github.io/react-exercises/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/https//:josiahcameron.github.io/react-exercises/index.html",
     "main.073c9b0a.css.map": "/https//:josiahcameron.github.io/react-exercises/static/css/main.073c9b0a.css.map",
-    "main.bb15cfff.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/main.bb15cfff.js.map",
+    "main.fe006250.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/main.fe006250.js.map",
     "787.66e229e8.chunk.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/787.66e229e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bb15cfff.js"
+    "static/js/main.fe006250.js"
   ]
 }
