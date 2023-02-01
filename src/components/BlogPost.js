@@ -1,10 +1,22 @@
 import { useState } from "react";
 
-function Blog() {
+const INITIAL_POST = [
+  {
+    title: "some title",
+    body: "some body",
+  },
+];
+
+function Blog({}) {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 
   // This takes the data from the submission as an argument
+  const [posts, setPosts] = useState(INITIAL_POST);
+  const addPost = (post) => {
+    setPosts([...posts, post]);
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -15,8 +27,8 @@ function Blog() {
     };
 
     addPost(newPost);
-    setTitle("");
-    setCaption("");
+    // setTitle("");
+    // setBody("");
   };
 
   return (
@@ -33,9 +45,11 @@ function Blog() {
         type="text"
         name="body"
         value={body}
-        onChange={(e) => setCaption(e.target.value)}
+        onChange={(e) => setBody(e.target.value)}
       />
       <button type="submit">Save Post</button>
     </form>
   );
 }
+
+export default Blog;
