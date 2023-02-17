@@ -1,6 +1,5 @@
 import { useState } from "react";
 import UserForm from "./UserForm";
-import UserList from "./UserList";
 
 const INITIAL_USER = [
   {
@@ -17,10 +16,20 @@ function User() {
   const addUser = (user) => {
     setUser([...users, user]);
   };
+
+  const contactListHTML = users.map((user, index) => {
+    <div key={index}>
+      <p>
+        Name: {user.firstName},{user.lastName}
+      </p>
+      <p>Address: {user.address}</p>
+      <a href={`tel:+1${user.phoneNumber}`}>{user.phoneNumber}</a>
+    </div>;
+  });
   return (
     <div>
       <UserForm addUser={addUser} />
-      <UserList users={users} />
+      {contactListHTML}
     </div>
   );
 }

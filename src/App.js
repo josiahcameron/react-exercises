@@ -1,8 +1,15 @@
 import "./App.css";
-import User from "./components/User";
+import BlogPost from "./components/BlogPost/BlogPost";
+import User from "./components/User/User";
+// import BlogList from "./components/BlogApp/BlogList";
 
 function App() {
-  return <User />;
+  return (
+    <div>
+      <BlogPost />
+      <User />
+    </div>
+  );
 }
 
 export default App;
