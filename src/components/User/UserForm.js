@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { form } from "bootstrap";
+import { Button } from "bootstrap";
 
 function UserForm({ addUser }) {
   const [firstName, setFirstName] = useState("");
@@ -47,7 +49,7 @@ function UserForm({ addUser }) {
         value={phoneNumber}
         onChange={(e) => setPhoneNumber(e.target.value)}
       />
-      <button type="submit">Save</button>
+      <Button type="submit">Save</Button>
     </form>
   );
 }
