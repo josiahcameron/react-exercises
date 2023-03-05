@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https//:josiahcameron.github.io/react-exercises/static/css/main.073c9b0a.css",
-    "main.js": "/https//:josiahcameron.github.io/react-exercises/static/js/main.9a7635d9.js",
+    "main.css": "/https//:josiahcameron.github.io/react-exercises/static/css/main.756af292.css",
+    "main.js": "/https//:josiahcameron.github.io/react-exercises/static/js/main.5271a40f.js",
     "static/js/787.66e229e8.chunk.js": "/https//:josiahcameron.github.io/react-exercises/static/js/787.66e229e8.chunk.js",
     "index.html": "/https//:josiahcameron.github.io/react-exercises/index.html",
-    "main.073c9b0a.css.map": "/https//:josiahcameron.github.io/react-exercises/static/css/main.073c9b0a.css.map",
-    "main.9a7635d9.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/main.9a7635d9.js.map",
+    "main.756af292.css.map": "/https//:josiahcameron.github.io/react-exercises/static/css/main.756af292.css.map",
+    "main.5271a40f.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/main.5271a40f.js.map",
     "787.66e229e8.chunk.js.map": "/https//:josiahcameron.github.io/react-exercises/static/js/787.66e229e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9a7635d9.js"
+    "static/css/main.756af292.css",
+    "static/js/main.5271a40f.js"
   ]
 }
