@@ -5,8 +5,6 @@ import BlogList from "./components/BlogApp/BlogList";
 import UserList from "./components/User/UserList";
 import BookmarkList from "./components/BookMark/BookMarkList";
 
-// import BlogList from "./components/BlogApp/BlogList";
-
 function App() {
 	// Set up the blog array to prepare it to be saved to state
 	const [blogs, setBlogs] = useState([]);
@@ -24,36 +22,36 @@ function App() {
 					className="btn btn-link"
 					type="button"
 					// When a button is clicked, a function is called to render the component associated with it
-					onClick={() => setSelection("blogform")}
+					onClick={() => setSelection("a")}
 				>
 					Create a Blog
 				</button>
 				<button
 					className="btn btn-link"
 					type="button"
-					onClick={() => setSelection("userlist")}
+					onClick={() => setSelection("b")}
 				>
 					Contacts
 				</button>
 				<button
 					className="btn btn-link"
 					type="button"
-					onClick={() => setSelection("bloglist")}
+					onClick={() => setSelection("c")}
 				>
 					Blogs
 				</button>
 				<button
 					className="btn btn-link"
 					type="button"
-					onClick={() => setSelection("bookmarks")}
+					onClick={() => setSelection("d")}
 				>
 					Bookmarks
 				</button>
 			</header>
-			{selection === "blogform" && <BlogForm addBlog={addBlog} />}
-			{selection === "userlist" && <UserList />}
-			{selection === "bloglist" && <BlogList blogs={blogs} />}
-			{selection === "bookmarks" && <BookmarkList />}
+			{selection === "a" && <BlogForm addBlog={addBlog} />}
+			{selection === "b" && <UserList />}
+			{selection === "c" && <BlogList blogs={blogs} />}
+			{selection === "d" && <BookmarkList />}
 		</div>
 	);
 }

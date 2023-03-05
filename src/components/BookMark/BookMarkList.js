@@ -1,17 +1,21 @@
 import { useState } from "react";
+import BookMarkForm from "./BookMarkForm";
 
 const INITIAL_DATA = [
 	{
+		id: 1,
 		url: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
 		title: "The Input (Form Input) element",
 		tag: "HTML",
 	},
 	{
+		id: 2,
 		url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
 		title: "Array.prototype.push()",
 		tag: "JS",
 	},
 	{
+		id: 3,
 		url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString",
 		title: "Array.prototype.toString()",
 		tag: "JS",
@@ -66,6 +70,7 @@ function BookmarkList() {
 				</button>
 				{tagsHTML}
 			</header>
+			<BookMarkForm bookmarks={bookmarks} setBookmarks={setBookmarks} />
 			{bookmarksHTML}
 		</div>
 	);
